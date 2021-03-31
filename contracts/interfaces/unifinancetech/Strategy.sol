@@ -2,6 +2,7 @@
 pragma solidity ^0.6.2;
 
 interface Strategy {
+    //s
     function want() external view returns (address);
     function deposit() external;
     function withdraw(address) external;
